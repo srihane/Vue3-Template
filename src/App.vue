@@ -4,6 +4,11 @@
 </template>
 
 <script>
+
+//CSS
+require('./css/style.css');
+
+// Importing Components
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
