@@ -1,10 +1,10 @@
 // Documents config
-let config = require('../config/config.json')
+//let config = require('../config/config.json')
 
 //Socketio
-import io from "socket.io-client";
-let socketioInstance = io(store.state.server);
-console.log(socketioInstance)
+//import io from "socket.io-client";
+//let socketioInstance = io(store.state.server);
+//console.log(socketioInstance)
 
 /* EXEMPLE
     // EMIT DATA
@@ -25,8 +25,8 @@ import Vuex from 'vuex'
 const store = new Vuex.Store({
     
     state: {
-        globalconfig: config,
-        server: config.server
+        //globalconfig: config,
+        //server: config.server
     },
     getters: {
         

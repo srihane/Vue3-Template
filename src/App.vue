@@ -1,6 +1,9 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!--<img alt="Vue logo" src="./assets/logo.png">-->
+  <!--<HelloWorld msg="Welcome to Your Vue.js App"/>-->
+  <Menu />
+  <Home />
+
 </template>
 
 <script>
@@ -9,17 +12,26 @@
 require('./css/style.css');
 
 // Importing Components
-import HelloWorld from './components/HelloWorld.vue'
+//import HelloWorld from './components/HelloWorld.vue'
+
+// Components
+import Menu from './components/Menu.vue'
+
+// Views
+import Home from './views/Home.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Menu,
+    Home,
+    //HelloWorld
   }
 }
 </script>
 
 <style>
+/*
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -28,4 +40,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+*/
 </style>
